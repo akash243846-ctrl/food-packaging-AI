@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Environment files (contain API keys)
+.env
+frontend/.env
+
+# Build output
+frontend/dist/
+
+# Database (can be regenerated)
+database/packsmart.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Scratch/temp
+scratch/
+
+# ZIP file
+*.zip
+
+# ONNX model (too large for git)
+backend/yolov8n.onnx
